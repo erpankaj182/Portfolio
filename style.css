@@ -1,0 +1,152 @@
+.navbar
+		{
+	    padding-top: 15px;
+	    padding-bottom: 15px;
+	    border: 0;
+	    border-radius: 0px;
+	    margin-bottom: 0px;
+	    font-size: 12px;
+	    letter-spacing: 5px;
+		}
+		
+		.margin 
+		{
+		margin-bottom: 45px;
+		}
+			
+		.navbar-nav li a:hover
+		{
+		color: #1abc9c !important;
+		}
+
+/* Second image (projects) */
+.parallax-2 {
+    background-image: url("projects.jpg");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    width:"100%"
+}
+.parallax-3{
+     background-image: url("Contact-Me1.jpg");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    width="100%"
+}
+
+.box
+	{
+	background: #fff;
+	box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.15), 0px 2px 3px 0px rgba(0,0,0,0.1);
+	text-align: center;
+	}
+
+		.box .image-full
+		{
+		position: relative;
+		@import url('lytebox.css');
+		}
+
+		.\35 grid .offset-4u:first-child { margin-left: 34% !important; } 
+		.\35 grid .offset-4u { margin-left: 36% !important; } 
+
+.image
+	{
+		display: inline-block;
+	}
+
+    .image-full
+	{
+		display: block;
+		width: 100%;
+		margin: 0 0 2em 0;
+	}
+
+    	.image-centered
+	{
+		display: block;
+		margin: 0 0 2em 0;
+	}
+
+	.demo-card-square.mdl-card 
+{
+  width: 320px;
+  height: 320px;
+}
+
+.demo-card-square > .mdl-card__title
+{
+  color: #fff;
+  background:
+    url('') bottom right 15% no-repeat #46B6AC;
+}
+
+.cards
+{
+  padding: 20px;
+  background: #fafafa;
+  position: relative;
+}
+
+#p-padding
+{
+    padding:15px;
+}
+
+.aboutme
+ {
+    width: 300px;
+  //  border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}
+
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+	background:#eee;
+	height:5px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+
+
+.skillbar-bar {
+	height:5px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+.skillbarset
+{
+	margin: 25px;
+    padding:25px; 
+}
