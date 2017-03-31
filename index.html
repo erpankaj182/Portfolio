@@ -30,17 +30,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 
-          <script>
-                
-                jQuery(document).ready(function(){
-                  jQuery('.skillbar').each(function(){
-                    jQuery(this).find('.skillbar-bar').animate({
-                      width:jQuery(this).attr('data-percent')
-                    },1500);
-                  });
-                });
-
-          </script>
+         
 
 </head>
 
@@ -74,7 +64,7 @@
 
 <div class="jumbotron text-center" id="home">
                   
-  <span class="image image-centered"><img src="code.png" alt="code Logo" height="120" width="120"/></span>
+  <span class="image image-centered"><img src="code.png" alt="code Logo" /></span>
 
   <div class="row center">
      <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Hi! I'm <span class="w3-hide-small"></span><strong style="opacity: 0.7">Pankaj Agrawal</strong> </span>
@@ -372,5 +362,17 @@ or leave me a note:</p>
 </footer>
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
+
+ <script>
+                
+                jQuery(document).ready(function(){
+                  jQuery('.skillbar').each(function(){
+                    jQuery(this).find('.skillbar-bar').animate({
+                      width:jQuery(this).attr('data-percent')
+                    },1500);
+                  });
+                });
+
+          </script>
 </body>
 </html>
