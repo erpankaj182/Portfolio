@@ -21,7 +21,7 @@
 
 /* Second image (projects) */
 .parallax-2 {
-    background-image: url("projects.jpg");
+    background-image: url("images/projects.jpg");
     min-height: 400px;
     background-attachment: fixed;
     background-position: center;
@@ -33,7 +33,7 @@
     width:"100%"
 }
 .parallax-3{
-     background-image: url("Contact-Me1.jpg");
+     background-image: url("images/Contact-Me1.jpg");
     min-height: 400px;
     background-attachment: fixed;
     background-position: center;
